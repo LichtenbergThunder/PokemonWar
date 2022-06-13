@@ -1,12 +1,47 @@
 fileFormatVersion: 2
-guid: 7ff7adb06799d54478a1c0a5b38a421c
+guid: 658626ffe3ec8154bae8aaa1117d2e4a
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: 4781951162920444690
-    second: Walk
-  externalObjects: {}
+      74: -623603649343465320
+    second: Bark
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Antenna
+    second: {fileID: 2100000, guid: 3258712b68ca258419c10a97095ba729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye
+    second: {fileID: 2100000, guid: fe0261fd6e5d26845924069f289c0430, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 143eef83bb52e5441857fcecf6136084, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main
+    second: {fileID: 2100000, guid: 7af927ef3d3cbe64d916321a9116db4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scalton
+    second: {fileID: 2100000, guid: ec2e2981dfc31844586f575d27def8ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sub
+    second: {fileID: 2100000, guid: a20c91ca58203824da9cbc7dbd207808, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tusk
+    second: {fileID: 2100000, guid: 8542fcf21783dd044bf0df1c25feb3a3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -35,19 +70,19 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Walk
-      takeName: Armature|ArmatureAction
+      name: Bark
+      takeName: Scene
       internalID: 0
       firstFrame: 0
-      lastFrame: 80
+      lastFrame: 180
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
+      loopTime: 0
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -122,11 +157,11 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 658626ffe3ec8154bae8aaa1117d2e4a, type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 2
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
