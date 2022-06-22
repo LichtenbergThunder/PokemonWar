@@ -32,6 +32,7 @@ public class MusicOperation : MonoBehaviour
 
     //  SE
     private const int shotSE = 0;     
+    private const int barkSE = 1;     
 
     [SerializeField]
     private int soundSouceNum = 10;
@@ -88,6 +89,9 @@ public class MusicOperation : MonoBehaviour
         {
             case "Shot":
                 seSpeaker[count].clip = SEclip[shotSE];
+                break;
+            case "Bark":
+                seSpeaker[count].clip = SEclip[barkSE];
                 break;
             default:
                 break;
