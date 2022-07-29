@@ -88,4 +88,10 @@ public class Player : MonoBehaviour
 
         yield return null;
     }
+
+    public void OnParticleCollision(GameObject other)
+    {
+        Destroy(this.gameObject);
+        GameManager.instance.GameOver();
+    }
 }
